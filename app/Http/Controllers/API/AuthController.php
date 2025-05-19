@@ -13,11 +13,11 @@ class AuthController extends Controller
     public function login(Request $request)
     {
         // dd(get_class_methods(\App\Models\User::class));
-        if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
+        if (Auth::attempt(['username' => $request->username, 'password' => $request->password])) {
             $auth = Auth::user();
             $success['token'] = $auth->createToken('auth_token')->plainTextToken;
             $success['name'] = $auth->name;
-            $success['email'] = $auth->email;
+            $success['username'] = $auth->username;
 
             return response()->json([
                 'success' => true,
@@ -27,17 +27,18 @@ class AuthController extends Controller
         } else {
             return response()->json([
                 'success' => false,
-                'message' => 'Cek email dan password lagi',
+                'message' => 'Cek username dan password lagi',
                 'data' => null
             ]);
         }
     }
-    
+
     public function register(Request $request)
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required',
-            'email' => 'required|email',
+            'username' => 'required|unique:users,username',
+            'email' => 'required|email|unique:users,email',
             'password' => 'required',
             'confirm_password' => 'required|same:password'
         ]);
@@ -62,8 +63,5 @@ class AuthController extends Controller
             'message' => 'Sukses register',
             'data' => $success
         ]);
-
     }
-
-    
 }

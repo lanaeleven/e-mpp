@@ -14,9 +14,18 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
+
 Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/user', function (Request $request) {
+        return $request->user();
+    });
+
+    Route::post('/logout', function (Request $request) {
+        // Revoke token yang digunakan saat ini
+        $request->user()->currentAccessToken()->delete();
+        return response()->json(['message' => 'Berhasil logout']);
+    });
 });

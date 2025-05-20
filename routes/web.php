@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Fallback route akan menangani semua route termasuk '/'
+Route::fallback(function () {
+    return file_get_contents(public_path('dist/index.html'));
 });

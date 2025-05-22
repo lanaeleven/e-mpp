@@ -23,9 +23,18 @@ Route::middleware('auth:sanctum')->group(function () {
         return $request->user();
     });
 
+    // Route::post('/logout', function (Request $request) {
+    //     // Revoke token yang digunakan saat ini
+    //     $request->user()->currentAccessToken()->delete();
+    //     return response()->json(['message' => 'Berhasil logout']);
+    // });
+
     Route::post('/logout', function (Request $request) {
-        // Revoke token yang digunakan saat ini
-        $request->user()->currentAccessToken()->delete();
+        // Revoke token yang digunakan saat ini, jika ada
+        $token = $request->user()->currentAccessToken();
+        if ($token) {
+            $token->delete();
+        }
         return response()->json(['message' => 'Berhasil logout']);
     });
 });

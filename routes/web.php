@@ -120,47 +120,16 @@ use Illuminate\Support\Facades\Response;
 // });
 
 // Menangani file statis Next.js
-// Route::get('/dist/{path}', function ($path) {
-//     $fullPath = public_path("dist/{$path}");
+Route::get('/dist/{path}', function ($path) {
+    $fullPath = public_path("dist/{$path}");
 
-//     if (!file_exists($fullPath)) {
-//         abort(404);
-//     }
-
-//     $extension = pathinfo($fullPath, PATHINFO_EXTENSION);
-
-//     $contentType = match ($extension) {
-//         'js' => 'application/javascript',
-//         'css' => 'text/css',
-//         'svg' => 'image/svg+xml',
-//         'png' => 'image/png',
-//         'jpg', 'jpeg' => 'image/jpeg',
-//         'gif' => 'image/gif',
-//         'woff' => 'font/woff',
-//         'woff2' => 'font/woff2',
-//         'ttf' => 'font/ttf',
-//         'eot' => 'application/vnd.ms-fontobject',
-//         'json' => 'application/json',
-//         default => 'application/octet-stream',
-//     };
-
-//     return Response::file($fullPath, ['Content-Type' => $contentType]);
-// })->where('path', '.*');
-
-// // Fallback untuk semua route ke dist/index.html (SPA)
-// Route::fallback(function () {
-//     return file_get_contents(public_path('dist/index.html'));
-// });
-
-// Pastikan assets dapat diakses
-Route::get('/dist/assets/{any}', function ($any) {
-    $path = public_path("dist/assets/{$any}");
-
-    if (!file_exists($path)) {
+    if (!file_exists($fullPath)) {
         abort(404);
     }
 
-    $contentType = match (pathinfo($path, PATHINFO_EXTENSION)) {
+    $extension = pathinfo($fullPath, PATHINFO_EXTENSION);
+
+    $contentType = match ($extension) {
         'js' => 'application/javascript',
         'css' => 'text/css',
         'svg' => 'image/svg+xml',
@@ -171,13 +140,14 @@ Route::get('/dist/assets/{any}', function ($any) {
         'woff2' => 'font/woff2',
         'ttf' => 'font/ttf',
         'eot' => 'application/vnd.ms-fontobject',
-        default => 'text/plain',
+        'json' => 'application/json',
+        default => 'application/octet-stream',
     };
 
-    return response()->file($path, ['Content-Type' => $contentType]);
-})->where('any', '.*');
+    return Response::file($fullPath, ['Content-Type' => $contentType]);
+})->where('path', '.*');
 
-// Fallback route untuk SPA
+// Fallback untuk semua route ke dist/index.html (SPA)
 Route::fallback(function () {
     return file_get_contents(public_path('dist/index.html'));
 });

@@ -15,14 +15,21 @@ class AuthController extends Controller
         // dd(get_class_methods(\App\Models\User::class));
         if (Auth::attempt(['username' => $request->username, 'password' => $request->password])) {
             $auth = Auth::user();
-            $success['token'] = $auth->createToken('auth_token')->plainTextToken;
-            $success['name'] = $auth->name;
-            $success['username'] = $auth->username;
+            // $success['token'] = $auth->createToken('auth_token')->plainTextToken;
+            // $success['name'] = $auth->name;
+            // $success['username'] = $auth->username;
+            $roles = config('kode.roles');
+            $rs = config('kode.rs');
 
             return response()->json([
                 'success' => true,
                 'message' => 'Login sukses',
-                'data' => $success
+                'token' => $auth->createToken('auth_token')->plainTextToken,
+                'data' => [
+                    'user' => $auth,
+                    'roles' => $roles[$auth->kode_role] ?? 'Unknown Role',
+                    'rs' => $rs[$auth->kode_rs] ?? 'Unknown RS',
+                ]
             ]);
         } else {
             return response()->json([
@@ -62,6 +69,22 @@ class AuthController extends Controller
             'success' => true,
             'message' => 'Sukses register',
             'data' => $success
+        ]);
+    }
+
+    public function user(Request $request)
+    {
+        $user = $request->user();
+        $roles = config('kode.roles');
+        $rs = config('kode.rs');
+
+        return response()->json([
+            'success' => true,
+            'data' => [
+                'user' => $user,
+                'roles' => $roles[$user->kode_role] ?? 'Unknown Role',
+                'rs' => $rs[$user->kode_rs] ?? 'Unknown RS',
+            ]
         ]);
     }
 }

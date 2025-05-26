@@ -157,9 +157,16 @@ Route::get('/', function () {
     return file_get_contents(public_path('index.html'));
 });
 
-// Route khusus untuk root (homepage)
 Route::get('/login', function () {
     return file_get_contents(public_path('login/index.html'));
+});
+
+Route::get('/pedoman', function () {
+    return file_get_contents(public_path('pedoman/index.html'));
+});
+
+Route::get('/tutorial', function () {
+    return file_get_contents(public_path('tutorial/index.html'));
 });
 
 

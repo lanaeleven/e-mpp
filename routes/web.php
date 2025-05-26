@@ -152,6 +152,11 @@ use Illuminate\Support\Facades\Response;
 //     return file_get_contents(public_path('dist/index.html'));
 // });
 
+// Route khusus untuk root (homepage)
+Route::get('/', function () {
+    return file_get_contents(public_path('index.html'));
+});
+
 
 // Menangani file statis Next.js langsung dari public/
 Route::get('/{path}', function ($path) {

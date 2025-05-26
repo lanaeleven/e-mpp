@@ -157,6 +157,11 @@ Route::get('/', function () {
     return file_get_contents(public_path('index.html'));
 });
 
+// Route khusus untuk root (homepage)
+Route::get('/login', function () {
+    return file_get_contents(public_path('login/index.html'));
+});
+
 
 // Menangani file statis Next.js langsung dari public/
 Route::get('/{path}', function ($path) {

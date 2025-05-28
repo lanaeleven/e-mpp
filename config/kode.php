@@ -50,6 +50,13 @@ return [
             'formB' => 'https://docs.google.com/forms/d/e/1FAIpQLSemf5McGq1Fxx36zjlZSkrRTauV9kRC7hRX546gJ_YiuZ1tBw/viewform?usp=header',
             'formP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSeVHlgNYldIBggcyIj-UGvlNWX57qQ1MA8Z6UqzPrfQk9vnow/viewform?usp=header',
             'ceklisFormP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSefAZKvuatA7CY9CaJr0CXCqtmGv_QFBBh28fDDhqwRRkV_mQ/viewform?usp=header',
+
+            'pedomanIgd' => 'https://docs.google.com/document/d/1Mx-y9MhbiZkH8UxLmvbhfyPzQFkBoIMERdS6lFdKEbQ/edit?usp=sharing',
+            'pedomanIrj' => 'https://docs.google.com/document/d/19KgSoPwG9HDoniqMHg9viaRztCqT9FHZP2dfSyoF2hQ/edit?usp=sharing',
+            'pedomanIbs' => 'https://docs.google.com/document/d/1F6zehHwJMWvi77dEicTLHI3Z1B-TOaruzy5hPk6QkJs/edit?usp=sharing',
+            'pedomanIcu' => 'https://docs.google.com/document/d/1ddAZoNBR8h1gXJ3SBy8bwmGh7kKpqGV_0hoQ6c7w6OU/edit?usp=sharing',
+            'pedomanHd' => 'https://docs.google.com/document/d/13gKk0vNDOCRBEbsl2JZimFy87zRroPmrk8bqRisDCT0/edit?usp=sharing',
+            'pedomanRwi' => 'https://docs.google.com/document/d/1Ul3210KkYe-7nyudsNMMy5JK76iKiAi6GoTGYG5WCpQ/edit?usp=sharing',
         ],
         2 => [
             'namaRs' => 'RS 2',
@@ -91,6 +98,13 @@ return [
             'formB' => 'https://docs.google.com/forms/d/e/1FAIpQLSf-ERDFBskv5VqRtK73aqH-XqTbOabpVZj4ZIKVdygpq3I5Xw/viewform?usp=header',
             'formP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSexE2w-lYAvioJxP9U2wvV0YW4xyxhZVqQ8BF5pH5fPxpQmxg/viewform?usp=header',
             'ceklisFormP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSfI5bIMYVX_xFvaRPdC5duqGDlsxGx9edLX_4PwI6DgScWuCg/viewform?usp=header',
+
+            'pedomanIgd' => 'https://docs.google.com/document/d/1HjNR2XfJPnM-AACP7dfHHwQXLDp_-C-MYicCD-76mHw/edit?usp=sharing',
+            'pedomanIrj' => 'https://docs.google.com/document/d/1L5LPzAtNu0P0DGjNcjobKZqtAM_7G1MeG3zaEVxxb-s/edit?usp=sharing',
+            'pedomanIbs' => 'https://docs.google.com/document/d/11Bv7eR0rQ3lsoMemcF0jBWAskjC2SdH0ImHpNk92YjI/edit?usp=sharing',
+            'pedomanIcu' => 'https://docs.google.com/document/d/1JAX_KNmBa900TJ3I9SvF5o5XsbL8tIV3mfbkonfAqcw/edit?usp=sharing',
+            'pedomanHd' => 'https://docs.google.com/document/d/1YUlw_PCGRL6xr9sETnQVW56W-zPj0G4h3lpQdHiVvtU/edit?usp=sharing',
+            'pedomanRwi' => 'https://docs.google.com/document/d/13ifQOSb0wMPirvr3E4k8BvxAzYET70rlj1jO73NmYVM/edit?usp=sharing',
         ],
         3 => [
             'namaRs' => 'RS 3',
@@ -132,6 +146,13 @@ return [
             'formB' => 'https://docs.google.com/forms/d/e/1FAIpQLSeku8STm2gh3E6cm6CSivifBB7STAFnyrMQUVeM2vsD4i3-kw/viewform?usp=header',
             'formP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSf19pA6BbsISaEHINAQAoQ5PmINSMAMhqwmfyEl31zU-xtPSQ/viewform?usp=header',
             'ceklisFormP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSfC81Rlv3wn9iHch0iVZgmXIYrwin-L5WdlVY41xJVUZRB5yA/viewform?usp=header',
+
+            'pedomanIgd' => 'https://docs.google.com/document/d/1IF29vpcoeDHXSkUIaeQmtnaGe80GzqzHyl--F7EzZUo/edit?usp=sharing',
+            'pedomanIrj' => 'https://docs.google.com/document/d/1BSXKLhUHUwogRlfqesnaG07wmsjCAAfZnfTXjoEPjUI/edit?usp=sharing',
+            'pedomanIbs' => 'https://docs.google.com/document/d/1UhBtawL3cmvmAw3xrowz6XCJXq40J1rkUv8z_LWCGmU/edit?usp=sharing',
+            'pedomanIcu' => 'https://docs.google.com/document/d/1ZIcQkt27S6EulLd1AIS3AyPLWlE_M6wB7JP_yBzs4y0/edit?usp=sharing',
+            'pedomanHd' => 'https://docs.google.com/document/d/1QYiSTikEoKzKWJFYnCMeTXkdrgHJI3i7LJo-XNJe-sg/edit?usp=sharing',
+            'pedomanRwi' => 'https://docs.google.com/document/d/1LOflnhepLiOPudNSq77CSbTleUAyXXecHOEHHtCcSO4/edit?usp=sharing',
         ],
         4 => [
             'namaRs' => 'RS 4',
@@ -173,6 +194,13 @@ return [
             'formB' => 'https://docs.google.com/forms/d/e/1FAIpQLSdD3szwdJBkyW9Z2Gb4fY45Y5F48VdxPVt1F3oyfkc5rlbi-Q/viewform?usp=header',
             'formP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSf-58KWjZQ3BzTJyL4JBDmMLKG8zzs8DNuVZj9nMwRQRw9tSA/viewform?usp=header',
             'ceklisFormP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSfp9XNITjE0GoN3aYo9pI-hLHT6Nr39E7XRydW8YfB1qUbVOw/viewform?usp=header',
+
+            'pedomanIgd' => 'https://docs.google.com/document/d/1Q2K2G_QoUZYWwmL2M_BdZ4jNRjjp9FCFu5KTc_n-91c/edit?usp=sharing',
+            'pedomanIrj' => 'https://docs.google.com/document/d/1m_fSPHIt_X5R-_epSTaNEl2ep-nfsiy2pMOrns-uHa8/edit?usp=sharing',
+            'pedomanIbs' => 'https://docs.google.com/document/d/1TodkaZlflSfN_lCti91qrS19jIW6SWrNNioSDfpeovg/edit?usp=sharing',
+            'pedomanIcu' => 'https://docs.google.com/document/d/1G-kbVaONZpZ-cc3qMkuZ25kPZnbOMRTj7KAHtELtEq0/edit?usp=sharing',
+            'pedomanHd' => 'https://docs.google.com/document/d/1g2DaNwZmpoi1GH0sowseCTIhpCXmtuB7VxhwVpSB2ro/edit?usp=sharing',
+            'pedomanRwi' => 'https://docs.google.com/document/d/1oajUBrHbQ5cx-WATkRVuduN9x5whwH-3tVtu0t_3qp8/edit?usp=sharing',
         ],
         5 => [
             'namaRs' => 'RS 5',
@@ -214,6 +242,13 @@ return [
             'formB' => 'https://docs.google.com/forms/d/e/1FAIpQLSdgFfy0LJrCj_2FCBJFcHjv4mlwXua6n6eBE24yXt8VjY_48g/viewform?usp=header',
             'formP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSfQNaMnXDcYiQxHkMODXSubWuRtnoKTvhzHy9W6Dl06Ivmfog/viewform?usp=header',
             'ceklisFormP3' => 'https://docs.google.com/forms/d/e/1FAIpQLSfUl8wTZWcTYA5hrQUZbWrGBhxjOE2jHgzr57K9eesRkHE18Q/viewform?usp=header',
+
+            'pedomanIgd' => 'https://docs.google.com/document/d/1P4P8Ef4-MKRmO7vBi9tAWFBKCUK4w_QKq9dal-uNRvM/edit?usp=sharing',
+            'pedomanIrj' => 'https://docs.google.com/document/d/1JBm4LWnl2V7lSyYY2i3Scs-f7Y_S61Q1S_MM1VKV3RQ/edit?usp=sharing',
+            'pedomanIbs' => 'https://docs.google.com/document/d/1kmniiPU-TJbLNLGHB-hHyo-rCNzATHnPebYwPrqqeOQ/edit?usp=sharing',
+            'pedomanIcu' => 'https://docs.google.com/document/d/1fGx0R0zOhRbrsMX3CfLJMG1EAvRFMsvGVtnvQAtwMNs/edit?usp=sharing',
+            'pedomanHd' => 'https://docs.google.com/document/d/1_TUmEXxhBaAB4fRuFk5QlFHG1CErtV60u2O0Y-sDWig/edit?usp=sharing',
+            'pedomanRwi' => 'https://docs.google.com/document/d/1fgpwokLnZeYCxnLdGZvPiHisbE3Ietihd9MY_TzX8Wg/edit?usp=sharing',
         ],
     ],
 ];

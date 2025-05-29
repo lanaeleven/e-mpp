@@ -44,6 +44,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 use Illuminate\Support\Facades\Response;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -220,6 +221,9 @@ Route::get('/primaryMenus/kepuasan/', function () {
 Route::get('/primaryMenus/lainnya/', function () {
     return file_get_contents(public_path('primaryMenus/lainnya/index.html'));
 });
+
+// Route resource untuk UserController, path diganti string random
+Route::resource('mppuser-7f3a2b', UserController::class);
 
 
 

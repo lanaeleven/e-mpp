@@ -14,6 +14,7 @@ return [
             'namaRs' => 'RSI Sultan Agung Banjarbaru',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1ZcLYWQ-ketAtd-ljfusJovwfZl33OAxylM_dPygvMJM/edit?usp=sharing',
+            'responCatatan' => '/',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/1jtTg1EWHE4hcPgy47JpqdbbMgh2nhjoa6GE9Kvsk0KM/edit?usp=sharing',
             'jadwalDrDpjp' => 'https://docs.google.com/spreadsheets/d/1gJYagbta0u2ueJfTroUpy_yw-3pZrinqgW8JbjesTZA/edit?usp=sharing',
@@ -62,7 +63,8 @@ return [
         2 => [
             'namaRs' => 'RS 2',
 
-            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1J2MteOE9_IjxR0AVhhHlAIi1bs7CojPVQVvtXRzHfz0/edit?usp=sharing',
+            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1akNAIh6bZVbEFNT07JEm4Q-Qe4ygON4s-tK4S8JIdpk/edit?usp=sharing',
+            'responCatatan' => '/',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/1nOuC4baRpQgjW29iXxLn-e8viC6lXBYSOUqnBiVZsEo/edit?usp=sharing',
             'jadwalDrDpjp' => 'https://docs.google.com/spreadsheets/d/1pftLKxLd_PmOxoMH4b1c8TYNziXSXUkd4XbdDE3WHFE/edit?usp=sharing',
@@ -111,7 +113,8 @@ return [
         3 => [
             'namaRs' => 'RS 3',
 
-            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1VB7tUYAO8lY4GJqVGZWQMdbtg4JmZ2nLmXJ-wwYVQvU/edit?usp=sharing',
+            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1CvJl23jFTzL5Y85h5JlNULpUrNc3LkOz8dm8nrM5MW8/edit?usp=sharing',
+            'responCatatan' => '/',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/1D2UGMuDgjpcQMdTRnMkvo0N4_dM_qr7xjOXitCd-j-I/edit?usp=sharing',
             'jadwalDrDpjp' => 'https://docs.google.com/spreadsheets/d/1-6627fpuzttLuu0fV_eiBAGxpvu9jigU-tSkByH2Mao/edit?usp=sharing',
@@ -160,7 +163,8 @@ return [
         4 => [
             'namaRs' => 'RS 4',
 
-            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1MqfcicEIMYUtUhfeIdinGnfP00255U8D6ysluyzqWPg/edit?usp=sharing',
+            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1GQJjJvQJVlxjT-CtqTRxkY6RpoXcxpfQenkdtL_-mqM/edit?usp=sharing',
+            'responCatatan' => '/',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/18t22ahZf2LLBbQpshHzuJgZBcqak2nAhshnCRoJDeXc/edit?usp=sharing',
             'jadwalDrDpjp' => 'https://docs.google.com/spreadsheets/d/1GA5RDsBjimCyQ3BmzRDWVu_zfmmB9c9NvxAPusHoBpo/edit?usp=sharing',
@@ -209,7 +213,8 @@ return [
         5 => [
             'namaRs' => 'RS 5',
 
-            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1GlGwDvTVUiWFXPH7a0moL6679yJJ4FSuE706lhmoIPE/edit?usp=sharing',
+            'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1oG3BmMo_RvyoO1crKiyB3u7Yp_x5xE-GGNHpOZWwei0/edit?usp=sharing',
+            'responCatatan' => '/',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/1eCyq9qFK3nIhObzzzFYGy8Pt3qHb8r-C7syFjqEE6y8/edit?usp=sharing',
             'jadwalDrDpjp' => 'https://docs.google.com/spreadsheets/d/1TGGMkZ47oH2fsHTp5dIJaND_Hp3of0ezB31r-r5u78E/edit?usp=sharing',

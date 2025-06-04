@@ -13,6 +13,8 @@ return [
         1 => [
             'namaRs' => 'RSI Sultan Agung Banjarbaru',
 
+            'profilrs'=> 'https://docs.google.com/document/d/1LRfF9E36D415nQANOFI8gduGvyu3OgLYmEfz5EPoxvc/edit?usp=sharing',
+
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1ZcLYWQ-ketAtd-ljfusJovwfZl33OAxylM_dPygvMJM/edit?usp=sharing',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/1jtTg1EWHE4hcPgy47JpqdbbMgh2nhjoa6GE9Kvsk0KM/edit?usp=sharing',
@@ -61,6 +63,8 @@ return [
         ],
         2 => [
             'namaRs' => 'RS 2',
+
+            'profilrs'=> 'https://docs.google.com/document/d/1WKVtVfcDelBqiA25UUBf38c20bb98SAvGxjq-Pwd9UE/edit?usp=sharing',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1J2MteOE9_IjxR0AVhhHlAIi1bs7CojPVQVvtXRzHfz0/edit?usp=sharing',
 
@@ -111,6 +115,8 @@ return [
         3 => [
             'namaRs' => 'RS 3',
 
+            'profilrs'=> 'https://docs.google.com/document/d/1Axq1IHi5UxGw0hcv3DQ1h0OjkJz70koeUu3FCX12KmM/edit?usp=sharing',
+
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1VB7tUYAO8lY4GJqVGZWQMdbtg4JmZ2nLmXJ-wwYVQvU/edit?usp=sharing',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/1D2UGMuDgjpcQMdTRnMkvo0N4_dM_qr7xjOXitCd-j-I/edit?usp=sharing',
@@ -160,6 +166,8 @@ return [
         4 => [
             'namaRs' => 'RS 4',
 
+            'profilrs'=> 'https://docs.google.com/document/d/13ugXq-nTVJz2O84dACuX84f_2m7TpoCmiIMSg_qCmbY/edit?usp=sharing',
+
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1MqfcicEIMYUtUhfeIdinGnfP00255U8D6ysluyzqWPg/edit?usp=sharing',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/18t22ahZf2LLBbQpshHzuJgZBcqak2nAhshnCRoJDeXc/edit?usp=sharing',
@@ -208,6 +216,8 @@ return [
         ],
         5 => [
             'namaRs' => 'RS 5',
+
+            'profilrs'=> 'https://docs.google.com/document/d/1rrEdOeOivp_QrO9JTsCiBeqUaR8ZNUj1w36dB_acweI/edit?usp=sharing',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1GlGwDvTVUiWFXPH7a0moL6679yJJ4FSuE706lhmoIPE/edit?usp=sharing',
 

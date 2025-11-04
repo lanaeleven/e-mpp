@@ -13,11 +13,14 @@ return [
         1 => [
             'namaRs' => 'RSI Sultan Agung Banjarbaru',
 
-            'profilrs'=> 'https://docs.google.com/document/d/1LRfF9E36D415nQANOFI8gduGvyu3OgLYmEfz5EPoxvc/edit?usp=sharing',
+            'profilrs' => 'https://docs.google.com/document/d/1LRfF9E36D415nQANOFI8gduGvyu3OgLYmEfz5EPoxvc/edit?usp=sharing',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1ZcLYWQ-ketAtd-ljfusJovwfZl33OAxylM_dPygvMJM/edit?usp=sharing',
             'caseManager' => 'https://docs.google.com/spreadsheets/d/1U8p0orPgcRrqrl1DgUwbs5HMdko4LFhA5NQUMrQQb3Q/edit?usp=sharing',
             'responCatatan' => 'https://docs.google.com/spreadsheets/d/13YAokNwM3zPeTFfgH_xD3WHA7sQaizqidJDBJC78oSE/edit?usp=sharing',
+
+            'formSyariah' => 'https://forms.gle/p7f1FCqw4sVPyLsZ6',
+            'hasilFormSyariah' => 'https://docs.google.com/spreadsheets/d/1JbbYEL0QNDigtDKdlJyjAU6e09LwJvgscUFqlyqLsVA/edit?usp=sharing',
 
             'jadwalUnit' => 'https://docs.google.com/spreadsheets/d/1jtTg1EWHE4hcPgy47JpqdbbMgh2nhjoa6GE9Kvsk0KM/edit?usp=sharing',
             'jadwalDrDpjp' => 'https://docs.google.com/spreadsheets/d/1gJYagbta0u2ueJfTroUpy_yw-3pZrinqgW8JbjesTZA/edit?usp=sharing',
@@ -68,7 +71,7 @@ return [
         2 => [
             'namaRs' => 'RS 2',
 
-            'profilrs'=> 'https://docs.google.com/document/d/1WKVtVfcDelBqiA25UUBf38c20bb98SAvGxjq-Pwd9UE/edit?usp=sharing',
+            'profilrs' => 'https://docs.google.com/document/d/1WKVtVfcDelBqiA25UUBf38c20bb98SAvGxjq-Pwd9UE/edit?usp=sharing',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1akNAIh6bZVbEFNT07JEm4Q-Qe4ygON4s-tK4S8JIdpk/edit?usp=sharing',
             'caseManager' => 'https://docs.google.com/spreadsheets/d/1Gcch3eZ9549i4owkWk-Sdexz20pjtUWTJ4zq8zjWVQQ/edit?usp=sharing',
@@ -124,7 +127,7 @@ return [
         3 => [
             'namaRs' => 'RS 3',
 
-            'profilrs'=> 'https://docs.google.com/document/d/1Axq1IHi5UxGw0hcv3DQ1h0OjkJz70koeUu3FCX12KmM/edit?usp=sharing',
+            'profilrs' => 'https://docs.google.com/document/d/1Axq1IHi5UxGw0hcv3DQ1h0OjkJz70koeUu3FCX12KmM/edit?usp=sharing',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1CvJl23jFTzL5Y85h5JlNULpUrNc3LkOz8dm8nrM5MW8/edit?usp=sharing',
             'caseManager' => 'https://docs.google.com/spreadsheets/d/16g5dloaRPVMptYGwZyU599QKbmKcsQalHoeZ99brZVg/edit?usp=sharing',
@@ -180,7 +183,7 @@ return [
         4 => [
             'namaRs' => 'RS 4',
 
-            'profilrs'=> 'https://docs.google.com/document/d/13ugXq-nTVJz2O84dACuX84f_2m7TpoCmiIMSg_qCmbY/edit?usp=sharing',
+            'profilrs' => 'https://docs.google.com/document/d/13ugXq-nTVJz2O84dACuX84f_2m7TpoCmiIMSg_qCmbY/edit?usp=sharing',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1GQJjJvQJVlxjT-CtqTRxkY6RpoXcxpfQenkdtL_-mqM/edit?usp=sharing',
             'caseManager' => 'https://docs.google.com/spreadsheets/d/1BpEwmPBi7iEk47X-u0F33E6bEw3tsNDgQwAR4ouKVTM/edit?usp=sharing',
@@ -236,7 +239,7 @@ return [
         5 => [
             'namaRs' => 'RS 5',
 
-            'profilrs'=> 'https://docs.google.com/document/d/1rrEdOeOivp_QrO9JTsCiBeqUaR8ZNUj1w36dB_acweI/edit?usp=sharing',
+            'profilrs' => 'https://docs.google.com/document/d/1rrEdOeOivp_QrO9JTsCiBeqUaR8ZNUj1w36dB_acweI/edit?usp=sharing',
 
             'hasilSupervisi' => 'https://docs.google.com/spreadsheets/d/1oG3BmMo_RvyoO1crKiyB3u7Yp_x5xE-GGNHpOZWwei0/edit?usp=sharing',
             'caseManager' => 'https://docs.google.com/spreadsheets/d/1QidMBZbypu-PAJD8almJTWhfQAq2ASPYGhrGrEhg8vc/edit?usp=sharing',
